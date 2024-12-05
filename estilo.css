@@ -1,0 +1,123 @@
+/*Documento CSS*/
+
+body {
+	background-image: url(imagenes/Abstract-Webpage-Background.jpg);
+}
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	background-color: rgb(41, 41, 41);
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.style-nav ul {
+	list-style-type: none;
+	font-size: 12px;
+	font-weight: 600;	
+	
+}
+
+.style-nav ul li a {
+	font-family: 'PT Sans', sans-serif;
+	text-decoration:none;
+	color:#FFFFFF;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.contenido {
+		margin-top: 20px;
+	}
+
+
+/* Vista Tablet */
+
+@media (min-width: 768px){
+	
+	.contenido {
+		margin-top: 70px;
+	}
+	
+	header {
+		padding-bottom: 15px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+		font-size: 18px;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+}
+
+
+/* Vista Desktop */
+
+
+@media (min-width: 1024px){
+	
+	header {
+	padding-bottom: 50px;
+	padding-left: 32px;
+	padding-right: 32px;
+	}
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+		font-size: 24px;
+	}
+
+}
+.contenido {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 72px;
+	color: white;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 24px;
+	color: white;
+	font-variant: small-caps;
+	
+}
+
+.miboton {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	color: black;
+	font-weight: 700;
+	background-color: white;
+	margin-top: 25px;
+	border: 0;
+	border-radius: 25px;
+	padding-top: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-bottom: 15px;
+}
